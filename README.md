@@ -1,16 +1,39 @@
-# getir
+Getir Clone - Flutter Bitirme Projesi
+Bu proje, Getir uygulamasının arayüzünü Flutter kullanarak klonlamak amacıyla geliştirilmiştir. Sadece arayüz tasarımı yapılmıştır, herhangi bir backend işlevselliği veya veri yönetimi yoktur.
 
-A new Flutter project.
+🚀 Proje Özellikleri
+📱 Getir uygulamasına benzer modern UI tasarımı
+🔄 Temel navigasyon yapısı
+🎨 Responsive tasarım desteği
+🌍 Türkçe dil desteği
 
-## Getting Started
+📦 Kurulum ve Çalıştırma
+Gerekli Bağımlılıkları Yükleyin:
+flutter pub get
 
-This project is a starting point for a Flutter application.
+Projeyi Çalıştırın:
+flutter run
 
-A few resources to get you started if this is your first Flutter project:
+📁 Proje Yapısı
+/lib
+  ├── core/                  # Uygulamanın temel yapı taşları
+  │   ├── constants/         # Sabitler ve genel değişkenler
+  │   │   ├── app_constants.dart
+  │   │   ├── app_data.dart
+  │
+  ├── data/                  # Veri ile ilgili katman
+  │   ├── models/            # Veri modelleri
+  │   ├── routes/            # Navigasyon yönetimi
+  │   ├── services/          # Veri servisleri 
+  │
+  ├── presentation/          # Kullanıcı arayüzü (UI) ile ilgili katman
+  │   ├── components/        # Tekrar kullanılabilir UI bileşenleri
+  │   ├── screens/           # Uygulama ekranları
+  │   ├── widgets/           # Özel widgetlar
+  │
+  ├── main.dart              # Uygulamanın giriş noktası
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  
+🔗 Bağlantılar
+Flutter Resmi Sitesi: flutter.dev
+GetX Kütüphanesi: pub.dev/packages/get
