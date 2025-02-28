@@ -14,4 +14,36 @@ Bu proje, **Getir uygulamasının arayüzünü** Flutter kullanarak klonlamak am
 ### 1️⃣ Gerekli Bağımlılıkları Yükleyin:
 ```sh
 flutter pub get
+```
+
+### 2️⃣ Projeyi Çalıştırın:
+```sh
+flutter run
+```
+
+## 📁 Proje Yapısı
+```bash
+/lib
+  ├── core/                  # Uygulamanın temel yapı taşları
+  │   ├── constants/         # Sabitler ve genel değişkenler
+  │   │   ├── app_constants.dart
+  │   │   ├── app_data.dart
+  │
+  ├── data/                  # Veri ile ilgili katman
+  │   ├── models/            # Veri modelleri
+  │   ├── routes/            # Navigasyon yönetimi
+  │   ├── services/          # Veri servisleri (varsa)
+  │
+  ├── presentation/          # Kullanıcı arayüzü (UI) ile ilgili katman
+  │   ├── components/        # Tekrar kullanılabilir UI bileşenleri
+  │   ├── screens/           # Uygulama ekranları
+  │   ├── widgets/           # Özel widgetlar
+  │
+  ├── main.dart              # Uygulamanın giriş noktası
+```
+
+## 🔗 Bağlantılar
+- 🌍 **Flutter Resmi Sitesi:** [flutter.dev](https://flutter.dev)  
+- 📦 **GetX Kütüphanesi:** [pub.dev/packages/get](https://pub.dev/packages/get)  
+
 
