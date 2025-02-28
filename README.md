@@ -32,7 +32,7 @@ flutter run
   ├── data/                  # Veri ile ilgili katman
   │   ├── models/            # Veri modelleri
   │   ├── routes/            # Navigasyon yönetimi
-  │   ├── services/          # Veri servisleri (varsa)
+  │   ├── services/          # Veri servisleri
   │
   ├── presentation/          # Kullanıcı arayüzü (UI) ile ilgili katman
   │   ├── components/        # Tekrar kullanılabilir UI bileşenleri
