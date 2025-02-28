@@ -171,13 +171,14 @@ class AppData {
   ];
 
   static final List<String> popularSearches = [
-    'su',
-    'süt',
-    'çikolata',
     'yoğurt',
+    'çikolata',
+    'süt',
+    'su',
     'ekmek',
     'cips',
-    'manav',
-    'kahvaltı'
+    'yumurta',
+    'tavuk',
+    'kola'
   ];
 }

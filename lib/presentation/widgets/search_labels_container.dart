@@ -32,8 +32,13 @@ class PopularSearch extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16),
-      margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
+      padding: const EdgeInsets.symmetric(
+        horizontal: 12,
+      ),
+      margin: const EdgeInsets.symmetric(
+        vertical: 8,
+        horizontal: 4,
+      ),
       decoration: BoxDecoration(
         border: Border.all(color: Colors.grey.shade300),
         borderRadius: BorderRadius.circular(8),
@@ -44,7 +49,7 @@ class PopularSearch extends StatelessWidget {
           style: const TextStyle(
             fontWeight: FontWeight.w600,
             color: AppConstants.getirPurple,
-            fontSize: 16,
+            fontSize: 12,
           ),
         ),
       ),

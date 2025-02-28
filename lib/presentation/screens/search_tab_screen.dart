@@ -19,11 +19,16 @@ class SearchTabScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             _buildSearchField(),
+            const SizedBox(height: 8),
             const Padding(
-              padding: EdgeInsets.fromLTRB(16, 28, 0, 16),
+              padding: EdgeInsets.all(16),
               child: Text(
                 'Popüler Aramalar',
-                style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.w500,
+                  color: Colors.grey,
+                ),
               ),
             ),
             const SearchLabelsContainer(),
@@ -38,6 +43,10 @@ class SearchTabScreen extends StatelessWidget {
       decoration: const InputDecoration(
         contentPadding: EdgeInsets.symmetric(horizontal: 0, vertical: 18),
         hintText: 'Ürün Ara',
+        hintStyle: TextStyle(
+          color: Colors.grey,
+          fontWeight: FontWeight.w500,
+        ),
         suffixIcon: Icon(Icons.mic, color: Colors.grey, size: 25),
         prefixIcon:
             Icon(Icons.search, color: AppConstants.getirPurple, size: 30),
